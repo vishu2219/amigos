@@ -4,20 +4,7 @@
     box-sizing: border-box;
    overflow-x: hidden;
   }
-  body.modal-open {
-    
-    overflow: hidden;
-    position: fixed;
-}
-body.viewport-lg {
-   
-    position: absolute; 
-}
-body {
   
-  overflow-x: hidden;
-  overflow-y: scroll !important;
-}
   nav{
       display: flex;
       justify-content: space-around;
@@ -67,7 +54,7 @@ body {
 }
 @media screen and (max-width:768px){
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .nav-links{
         position: absolute;
