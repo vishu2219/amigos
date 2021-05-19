@@ -581,7 +581,7 @@ body, html {
     display: flex;
     width: 500px;
     justify-content: space-around;
-    padding-right: 20px;
+    padding-right: 50px;
 }
   
  }
