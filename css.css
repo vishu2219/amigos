@@ -585,6 +585,9 @@ body, html {
     justify-content: space-around;
     
 }
+#footer .h3{
+  padding-right: 50px;
+}
   
  }
 /* footer ends*/
