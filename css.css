@@ -4,10 +4,7 @@
     box-sizing: border-box;
     
   }
-  body.modal-open {
-    overflow: hidden;
-    position: fixed;
-}
+  
   nav{
       display: flex;
       justify-content: space-around;
