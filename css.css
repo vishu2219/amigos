@@ -4,6 +4,20 @@
     box-sizing: border-box;
    overflow-x: hidden;
   }
+  body.modal-open {
+    
+    overflow: hidden;
+    position: fixed;
+}
+body.viewport-lg {
+   
+    position: absolute; 
+}
+body {
+  
+  overflow-x: hidden;
+  overflow-y: scroll !important;
+}
   nav{
       display: flex;
       justify-content: space-around;
