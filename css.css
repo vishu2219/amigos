@@ -4,9 +4,10 @@
     box-sizing: border-box;
     
   }
-  html, body {
-    overflow-y;:hidden 
-  }
+  body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
   nav{
       display: flex;
       justify-content: space-around;
