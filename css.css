@@ -562,12 +562,14 @@ body, html {
 } 
 #footer h3{
  text-transform: uppercase;
+ padding-right: 50px;
 }
 #footer .columns{
     display: flex;
     width: 700px;
     justify-content: space-evenly;
     padding: 12px;;
+
 }
 .footnote {
     position: relative;
