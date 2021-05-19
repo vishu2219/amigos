@@ -580,7 +580,7 @@ body, html {
   #footer .columns{
     display: flex;
     width: 500px;
-    justify-content: center;
+    justify-content: left;
     
 }
   
