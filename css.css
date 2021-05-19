@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-   
+   overflow-x: hidden;
   }
   nav{
       display: flex;
@@ -11,7 +11,6 @@
       min-height: 10vh;
       background:rgb(148, 47, 0);
       font-family: Georgia, 'Times New Roman', Times, serif; 
-
     }
     .top{
         color: snow;
@@ -478,6 +477,9 @@
     .L{
       width: 100%;
     }
+    .L1{
+      width: 100%;
+    }
     .R{
       width: 80%;
       margin: 0;
@@ -568,6 +570,14 @@
     bottom: -28px;
  }
 
+ @media screen and (max-width:768px) {
+  #footer .columns{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+  
+ }
 /* footer ends*/
 
 
