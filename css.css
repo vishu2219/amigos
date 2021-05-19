@@ -1,13 +1,9 @@
-html, body {
-  position:relative;
-  overflow-x:hidden;
-}
-
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    
+    overflow: hidden;
+    position: relative;
   }
   nav{
       display: flex;
