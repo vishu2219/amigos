@@ -55,7 +55,6 @@ body, html {
     .nav-links{
         width: 60%;
     }
-    
 }
 @media screen and (max-width:768px){
     body{
@@ -126,7 +125,7 @@ body, html {
   
   .details{
     position: absolute;
-    top: 50%;
+    top: calc(50% + 64px);
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -151,8 +150,7 @@ body, html {
   .text {
     font-size: 30px;
   }
-  }
-  
+  }  
   @media screen and (max-width: 600px) {
   .text {
     font-size: 24px;
@@ -409,19 +407,18 @@ body, html {
     background-color: #3d3d3d ;
   }
   .container1{
-  
-    width: 80%;
+    width: 100%;
+    padding: 25px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4vw;
     
   }
   .L{
-    width: 60%;
-    height: 600px;
+    width: 100%;
+    height: 570px;
     background-image: url(img/flora.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -429,8 +426,8 @@ body, html {
   
   }
   .L1{
-    width: 60%;
-    height: 600px;
+    width: 100%;
+    height: 570px;
     background-image: url(img/a4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -438,19 +435,20 @@ body, html {
   
   }
   .R{
-    width: 60%;
-    min-height: 400px;
+    width: 80%;
+    min-height: 450px;
     background-color: #2f3d3c;
     align-items: center;
     justify-items: center;
     border-radius: 8px;
     color:black;
-    padding: 30px;
-    margin-left: -10vw;
+    padding: 10px 20px;
+    margin-left: -15vw;
   }
   .R h1{
     font-size: 3vw;
     font-weight: 700;
+    margin: 10px 0;
   }
   .R p{
     margin: 20px 0;
@@ -503,7 +501,6 @@ body, html {
     }
   
   }
-  
 /*second container ended*/
 
 .card1 {
@@ -527,7 +524,7 @@ body, html {
 /*footer css*/
 #footer{
     width: 100%;
-    height: 20em;
+    height: 50%;
     justify-content: center;
     padding: 20px;
     background: rgb(129, 41, 0);
@@ -536,16 +533,20 @@ body, html {
 }
 #footer.header{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 200px;
     position: relative;
     display: flex;
     justify-content: center; 
 }
 #footer .social_media{
-    width: 450px;
+    width: 60vh;
+    align-items: center;
     position: relative;
     margin: auto;
-}
+    padding:2%;
+  }
+  #footer .social_media img{
+    width: 50px;
+  }
 #footer .social_media ul{
     list-style: none;
     display: flex;
@@ -566,30 +567,38 @@ body, html {
 }
 #footer .columns{
     display: flex;
-    width: 700px;
+    width: 60%;
     justify-content: space-evenly;
-    padding: 12px;;
+    padding: 12px;
 
 }
 .footnote {
     position: relative;
     display: flex;
     justify-content: center; 
-    bottom: -28px;
- }
-
- @media screen and (max-width:768px) {
-  #footer .columns{
-    display: flex;
-    width: 500px;
-    justify-content: space-around;
-    
+    bottom: -10px;
 }
 
+ @media screen and (max-width:768px) {
   
+  #footer.header{
+    font-size: 3vw;
+  }
+
+  #footer .columns{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  #footer .social_media{
+    width: 50vh;
+    padding: 5%;
+}
+.social_media ul li{
+  margin: 0px 15px;
+}
+#footer .social_media img{
+  width: 40px;
+}
  }
 /* footer ends*/
-
-
-
-
